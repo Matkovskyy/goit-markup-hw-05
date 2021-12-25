@@ -177,6 +177,28 @@ header {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+/* Modal */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0e0d0d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+}
+.is-hidden {
+  pointer-events: none;
+  opacity: 0;
+}
+.modal {
+  width: 528px;
+  height: 581px;
+  background-color: #ffffff;
+}
 /* Main Sections */
 .section {
   width: 100%;
@@ -190,6 +212,7 @@ header {
   color: var(--text-title-color);
   margin-bottom: 50px;
 }
+
 /* Наши преимущества index */
 .visually-hidden {
   position: absolute;
@@ -242,6 +265,30 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.work-img-description {
+  position: relative;
+  width: 100%;
+}
+.description-block {
+  position: absolute;
+  display: flex;
+  width: 370px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+}
+.description-block-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /* Our Team index*/
 .section-team-list {

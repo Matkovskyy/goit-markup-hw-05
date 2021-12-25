@@ -204,7 +204,6 @@ header {
 .modal-close-icon {
   width: 18px;
   height: 18px;
-  /* outline: 1px solid orange; */
 }
 .modal-close-button {
   display: flex;

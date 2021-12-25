@@ -47,15 +47,19 @@
         <section class="hero">
           <div class="container">
             <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>  
-          </div>
-          <div class="backdrop is-hidden">
-              <div class="modal">
-
-              </div>
+            <button data-modal-open type="button" class="hero-button" >Заказать услугу</button>  
           </div>
         </section>
-
+<!-- Modal -->
+        <div class="backdrop is-hidden" data modal>
+            <div class="modal">
+              <button data-modal-close class="modal-close-button">
+                  <svg class="modal-close-icon" width="11">
+                      <use href="./images/icons.svg#vector-close"></use>
+                  </svg>
+              </button>  
+            </div>
+        </div> 
         <!--Our rules-->
         <section class="section"> 
           <div class="container">
@@ -105,27 +109,30 @@
          <div class="container">
              <h2 class="section-title">Чем мы занимаемся</h2>
              <ul class="section-list">
-             <div class="work-img-description">
-                 <li class="section-list-item"> 
-                    <img src="./images/imgwwd1.jpg" alt="photo_what_we_do_1" width="370" />
-                 </li>
-                <div class="description-block">
+                <li class="section-list-item"> 
+                 <div class="image-description"> 
+                    <img src="./images/imgwwd1.jpg"    alt="photo_what_we_do_1" width="370"/>
+                  <div class="description-block">
                     <p class="description-block-text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
-                </div>
-             </div>
-             <div class="work-img-description"> 
-                 <li class="section-list-item"> <img src="./images/imgwwd2.jpg" alt="photo_what_we_do_2" width="370" /></li>
-                <div class="description-block">
+                  </div>
+                 </div> 
+                </li>
+                <li class="section-list-item"> 
+                  <div class="image-description">   
+                     <img src="./images/imgwwd2.jpg" alt="photo_what_we_do_2" width="370" />
+                  <div class="description-block">
                     <p class="description-block-text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
-                </div>
-            </div>  
-            <div class="work-img-description">
-                <li class="section-list-item"> <img src="./images/imgwwd3.jpg" alt="photo_what_we_do_3" width="370" /></li>
-                <div class="description-block">
+                  </div>
+                 </div> 
+                </li> 
+                <li class="section-list-item"> 
+                 <div class="image-description"> 
+                   <img src="./images/imgwwd3.jpg" alt="photo_what_we_do_3" width="370"/>
+                  <div class="description-block">
                     <p class="description-block-text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
-                </div>
-            </div>
-               
+                  </div>
+                 </div> 
+                </li>
              </ul>
          </div>
         </section>

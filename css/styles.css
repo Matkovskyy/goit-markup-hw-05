@@ -64,7 +64,7 @@ header {
   content: "";
   position: relative;
   display: block;
-  top: 30px;
+  top: 33px;
   bottom: auto;
   width: 100%;
   height: 4px;
@@ -80,6 +80,7 @@ header {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -100,12 +101,14 @@ header {
   padding: 32px 0;
   text-decoration: none;
   color: var(--primary-text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: var(--primary-text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-mail:hover,
 .address-mail:focus {
@@ -123,12 +126,14 @@ header {
   padding: 32px 0;
   text-decoration: none;
   color: var(--primary-text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: var(--primary-text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-phone:hover .icon-smartphone,
@@ -219,6 +224,7 @@ header {
   border: rgba(0, 0, 0, 0, 1);
   margin-top: 8px;
   margin-right: 8px;
+  cursor: pointer;
 }
 /* Main Sections */
 .section {
@@ -356,6 +362,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-list-item {
   margin-right: 10px;
@@ -369,6 +376,7 @@ img {
   width: 20px;
   height: 20px;
   fill: rgba(175, 177, 184, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-link:hover,
 .team-social-link:focus {
@@ -398,11 +406,13 @@ img {
   height: 100%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-group {
   width: 106px;
   height: 60px;
   fill: rgba(175, 177, 184, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-list-link:hover,
 .customers-list-link:focus {
@@ -430,18 +440,21 @@ img {
   line-height: 1.71;
   font-style: normal;
   color: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address-mail {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address-phone {
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address a {
   text-decoration: none;
@@ -454,9 +467,9 @@ img {
 .footer-address-map:hover {
   color: var(--accent-color);
 }
-.footer-address-phone:active,
-.footer-address-mail:active,
-.footer-address-map:active {
+.footer-address-phone:focus,
+.footer-address-mail:focus,
+.footer-address-map:focus {
   color: var(--accent-color);
 }
 .footer-address-item {
@@ -482,6 +495,7 @@ address {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-list-item {
   margin-right: 10px;
@@ -493,6 +507,7 @@ address {
   width: 20px;
   height: 20px;
   fill: rgba(255, 255, 255, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
@@ -535,6 +550,7 @@ address {
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-button:hover,
 .filter-button:focus {

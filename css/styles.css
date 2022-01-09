@@ -191,6 +191,7 @@ header {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
+  cursor: pointer;
 }
 .is-hidden {
   pointer-events: none;
@@ -200,6 +201,7 @@ header {
 .modal {
   width: 528px;
   height: 581px;
+  padding: 40px;
   background-color: #ffffff;
   position: absolute;
   top: 50%;
@@ -225,6 +227,43 @@ header {
   margin-top: 8px;
   margin-right: 8px;
   cursor: pointer;
+}
+.modal-close-icon:hover {
+  fill: #2196f3;
+}
+.modal-headline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.modal-form {
+  margin-top: 12px;
+}
+.form-input-box {
+  display: block;
+  margin-bottom: 28px;
+  font-style: normal;
+  font-weight: normal;
+  color: #757575;
+  font-size: 12px;
+  line-height: 1.16em;
+  letter-spacing: 0.03em;
+}
+.form-input {
+  width: 100%;
+  height: 40px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+.form-input-icon {
 }
 /* Main Sections */
 .section {
